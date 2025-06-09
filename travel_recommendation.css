@@ -36,16 +36,39 @@ nav {
   }
 
   #navbar{
-  padding:0px;
+  padding-left:10px;
+  height: 60px;
+  background-image: url(navbar.png);
+  
   }
   #search{
     display: flex;
-    padding-left: 10px;
     padding-right: 10px;
     margin:0px;
-    background-color: red;
     padding-bottom: 10px;
     border-radius:20px;
     height: 30px;
-    margin-left: 50px;
+    margin-left: 60px;
+    background-color: white;
+  }
+
+  #conditionInput{
+    border:none;
+    width:200px;
+    margin-left:10px
+  }
+
+  #btnSearch{
+    border-radius: 10px;
+    background-color: #63be51;
+    color:white;
+  }
+  #btnClear{
+    border-radius: 10px;
+    background-color: #63be51;
+    color:white;
+  }
+
+  .textColor{
+    color:rgb(247, 241, 241);
   }
