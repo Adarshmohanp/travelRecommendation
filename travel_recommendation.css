@@ -54,6 +54,7 @@ nav {
 
   #conditionInput{
     border:none;
+    border-color: white;
     width:200px;
     margin-left:10px
   }
@@ -62,13 +63,21 @@ nav {
     border-radius: 10px;
     background-color: #63be51;
     color:white;
+    border-color: #63be51;
   }
   #btnClear{
     border-radius: 10px;
     background-color: #63be51;
     color:white;
+    border-color: #63be51;
   }
 
   .textColor{
     color:rgb(247, 241, 241);
   }
+
+  #conditionInput::placeholder {
+    color:#76B1D9
+  }
+  
+  
