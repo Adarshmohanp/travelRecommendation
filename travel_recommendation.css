@@ -89,14 +89,26 @@ nav {
 
   .left-container{
     width:40%;
-    padding-top: 100px;
+    padding-top: 90px;
     
     
   }
   .explore{
-    font-size: 35px;
+    font-size: 33px;
     font-family: 'Verdana', sans-serif;
     color:#E6FFE6;
-
   }
   
+  .left-para{
+    color:#E6FFE6;
+    background-color: rgba(0,0,0,0.3);
+    
+  }
+
+  .booking{
+    color:#E6FFE6;
+    background-color:rgb(97, 156, 97);
+    padding: 5px 17px;       /* Controls height and width */
+    font-size: 15px;          /* Increases text size */
+    border-radius: 10px;  
+  }
