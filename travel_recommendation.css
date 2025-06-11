@@ -86,4 +86,17 @@ nav {
     height: 700px;
 
   }
+
+  .left-container{
+    width:40%;
+    padding-top: 100px;
+    
+    
+  }
+  .explore{
+    font-size: 35px;
+    font-family: 'Verdana', sans-serif;
+    color:#E6FFE6;
+
+  }
   
