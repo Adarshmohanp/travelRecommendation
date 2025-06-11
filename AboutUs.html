@@ -50,11 +50,46 @@
         margin-bottom:40px;
     }
 
-    #Team{
-        background-color:rgba(0,1,0,0.5);
-        padding: 10px;
-        width:90%;
-        margin-left:50px;
+   
+
+    .team-container {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      padding: 40px;
+    }
+
+    .team-card {
+      background-color: rgba(0, 0, 0, 0.5); 
+      color: white;
+      padding: 20px;
+      border-radius: 12px;
+      width: 250px;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .team-card h3 {
+      margin: 10px 0 5px;
+      font-size: 20px;
+    }
+
+    .team-card p {
+      font-size: 14px;
+      margin: 5px 0 15px;
+    }
+
+    .role-button {
+      display: inline-block;
+      padding: 8px 16px;
+      background-color: #4169e1; /* RoyalBlue */
+      border: none;
+      border-radius: 20px;
+      color: white;
+      font-weight: bold;
+      font-size: 14px;
+      cursor: default;
     }
   </style>
 </head>
@@ -75,8 +110,24 @@
   <p class="textcolor">Welcome to Our Company! We are a team of passionate individuals dedicated to providing excellent services/products to our customers. Our mission is to<br>provide the best experience for people travelling to different destinations around the world.<br>Our values include integrity, innovation, customer satisfaction and teamwork. We believe in putting our customers first and working together to achieve<br>our goals.<br>Feel free to explore our website to learn more about what we offer!</p>
   </div>
 
-  <div id="Team">
-    <h1 class="textColor">Our Team</h1>
+  <div class="team-container">
+    <div class="team-card">
+      <h3>John Doe</h3>
+      <p>John is responsible for overseeing all operations.</p>
+      <div class="role-button">CEO</div>
+    </div>
+
+    <div class="team-card">
+      <h3>Celina Thomas</h3>
+      <p>Celina is responsible for managing the team and projects.</p>
+      <div class="role-button">Team Lead</div>
+    </div>
+
+    <div class="team-card">
+      <h3>Mike Tyson</h3>
+      <p>Mike is responsible for delivering client solutions.</p>
+      <div class="role-button">Delivery Head</div>
+    </div>
   </div>
 
 </div>
