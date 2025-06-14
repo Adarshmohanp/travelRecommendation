@@ -62,9 +62,10 @@ function searchDestination() {
 function clearDestination(){
     const resultDiv = document.getElementById('result');
     resultDiv.innerHTML = ''; // Clear previous results
-
+    document.getElementById('conditionInput').value = '';
 }
+
 btnSearch.addEventListener('click',searchDestination);
-btnSearch.addEventListener('click',clearDestination);
+btnClear.addEventListener('click',clearDestination);
 
 
