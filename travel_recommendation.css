@@ -125,3 +125,11 @@ nav {
     overflow-y: auto;
     max-height: 600px;
   }
+
+  .social-icons{
+    display:flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-top: 90px;
+    gap: 25px;
+  }
